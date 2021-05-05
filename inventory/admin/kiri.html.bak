@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title></title>
+	<style>
+      .tombol{
+        /*ubah warna background*/
+        background-color: #7942ee;
+        /*ubah warna teks*/
+        color: white;
+        /*menghilangkan border*/
+        border: none;
+ /*atur sudut border*/
+        border-radius: 5px;
+        /*efek bayangan*/
+        box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+        /*teks rata tengah*/
+        text-align: center;
+        /*ubah jarak margin/luar*/
+        margin: 5px 2px;
+        /*ubah jarak padding/dalam*/
+        padding: 10px 15px;
+        /*ubah tampilan kursor ketika berada diatas elemen*/
+        cursor: pointer;
+        width: 180px;
+      }
+      .tombol:hover{
+        /*ubah warna background ketika kursor berada diatas elemen*/
+        background-color: #6124e3;
+      }
+    </style>
+</head>
+<body bgcolor="#CCCCFF">
+	<form action="home.html" method="get" target="kanan">
+	<button class="tombol">HOME</button>
+</form>
+	<form action="daftarbarang.php" method="get" target="kanan">
+	<button class="tombol">DAFTAR BARANG</button>
+</form>
+	<form action="input_barang.php" method="get" target="kanan">
+	<button class="tombol">ENTRY BARANG</button>
+</form>
+	<form action=" formulir.html" method="get" target="kanan">
+	<button class="tombol">PEMINJAMAN</button></form>
+	<form action=" formulir.html" method="get" target="kanan">
+	<button class="tombol">PENGEMBALIAN</button></form>
+	<form action=" stok.php" method="get" target="kanan">
+	<button class="tombol">STOK</button></form>
+	<form action=" logout.php" method="get" target="kanan">
+	<button class="tombol" type="LOGOUT">LOGOUT</button></form>
+</body>
+</html>
