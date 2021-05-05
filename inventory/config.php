@@ -1,6 +1,6 @@
 <?php 
  
-$koneksi = mysqli_connect("localhost","kits","kits","inventaris");
+$koneksi = mysqli_connect("localhost","root","kits","inventaris");
  
 // Check connection
 if (mysqli_connect_errno()){
