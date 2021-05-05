@@ -1,2 +1,2 @@
 # inventory
-<h1>Program Inventaris Barang</h1>
+Program Inventaris Barang
